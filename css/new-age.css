@@ -560,9 +560,7 @@ canvas {
 section.cta2 {
   position: relative;
   padding: 120px 0;
-  background-image: url("../img/business-contact.png");
-  background-position: center;
-  background-size: cover;
+  background: url(../img/business-contact.png) no-repeat fixed center / cover;
 }
 
 section.cta2 .cta-content {
@@ -876,3 +874,14 @@ float: right;
 }
 
 #tagpros-exp {width: 100% !important;min-height: 306px !important;}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.img-partner {
+  max-height: 100px;
+  width: 100%;
+}
